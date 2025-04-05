@@ -1,0 +1,38 @@
+{
+  "name": "samsung-app-store-scraper",
+  "version": "0.0.1",
+  "description": "Samsung App Store Scrapper for fetching all useful data from app page",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KR1470R/samsung-app-store-scraper.git"
+  },
+  "keywords": [
+    "samsung",
+    "app",
+    "store",
+    "app-store",
+    "scraper",
+    "tv",
+    "tv-apps"
+  ],
+  "type": "module",
+  "author": "KR1470R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KR1470R/samsung-app-store-scraper/issues"
+  },
+  "homepage": "https://github.com/KR1470R/samsung-app-store-scraper#readme",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "memoizee": "^0.4.17",
+    "ramda": "^0.30.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^11.1.0"
+  }
+}
